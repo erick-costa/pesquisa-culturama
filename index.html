@@ -95,8 +95,14 @@
             <option value="TO">Tocantins</option>
           </select>
 
-          <label for="city">Cidade</label>
-          <input type="text" name="city" />
+          <label for="userCity">Cidade:</label>
+          <input
+            type="text"
+            id="userCity"
+            name="userCity"
+            autocomplete="address-level2"
+            placeholder="Ex.: São Paulo"
+          />
         </fieldset>
         <button type="submit">Enviar</button>
       </form>
