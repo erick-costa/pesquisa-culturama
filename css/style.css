@@ -59,6 +59,16 @@ p {
   font-weight: bold;
 }
 
+input[type="tel"],
+input[type="file"] {
+  margin-bottom: 0px;
+}
+
+small {
+  margin-bottom: 20px;
+  display: inline-block;
+}
+
 input,
 select,
 textarea {
