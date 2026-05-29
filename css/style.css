@@ -93,15 +93,15 @@ input[type="color"] {
   padding: 0 5px;
 }
 
-input:invalid,
-select:invalid,
-textarea:invalid {
+input:user-invalid,
+select:user-invalid,
+textarea:user-invalid {
   border-color: red;
 }
 
-input:valid,
-select:valid,
-textarea:valid {
+input:user-valid,
+select:user-valid,
+textarea:user-valid {
   border-color: green;
 }
 
